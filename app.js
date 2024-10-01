@@ -39,10 +39,6 @@ app.use("/api/v1/timeline", timelineRouter);
 app.use("/api/v1/softwareapplication", applicationRouter);
 app.use("/api/v1/skill", skillRouter);
 app.use("/api/v1/project", projectRouter);
-
-
-
-
 dbConnection();
 app.use(errorMiddleware);
 export default app;
